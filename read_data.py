@@ -33,8 +33,10 @@ def read_example_a():
 
     return days, book_scores, general_lib_data, book_matrix,
 
+
 def main():
     print("test")
+
 
 if __name__ == '__main__':
     main()
