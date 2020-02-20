@@ -35,12 +35,12 @@ if __name__ == '__main__':
     a = [1, 2, 3]
     test_matrix = np.matrix(test_matrix)
 
+    days, book_scores, general_lib_data, book_matrix = read_example("a")
+
     res_num_of_lib = 0
     res_signed_libs = []
 
-    days_left = 10
-
-    while days_left > 0:
+    while days > 0:
         lib_id = get_best_library()
         break
 
